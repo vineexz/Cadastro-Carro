@@ -56,11 +56,11 @@
     </thead>
     <tbody>
       <tr >
-        <th scope="row"> </th>
-        <td> dateNew </td>
-        <td>Data-end</td>
-        <td>preco-hora</td>
-        <td>preco-dia</td>
+        <th scope="row"> {{ formulario.get('model')?.value }} </th>
+        <td> {{ formulario.get('dateNew')?.value }} </td>
+        <td>  {{ formulario.get('dateEnd')?.value }} </td>
+        <td> {{ formulario.get('hourPrice')?.value }} </td>
+        <td> {{ formulario.get('dayPrice')?.value }} </td>
       </tr>
     </tbody>
   </table>

@@ -32,12 +32,11 @@ constructor (private formBuilder: FormBuilder) {
   })
   }
   get() {
-    
+
   }
 
   onSubmit() {
 
-    console.log(this.formulario.value);
     this.formulario.reset(new Cadastro());
 
   }
